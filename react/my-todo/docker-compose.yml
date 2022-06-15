@@ -4,6 +4,6 @@ services:
     container_name: todolist
     restart: always
     image: todo-list
-    build:
+    build: .
     ports: 
       - "3000:3000"
